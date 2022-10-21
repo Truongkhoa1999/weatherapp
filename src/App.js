@@ -7,7 +7,7 @@ function App() {
   // states
   const [citySearch, setCitySearch] = useState('');
   const [cityData, setCityData] = useState(null);
-  const apiKey = 'oF3NNZZ8QXJ6kXiXB1AGmMjqCSG7qBqn'
+  const apiKey = 'HzmGgMBlGzQxQVUdtPMndElXkkCAKUZR'
 
   // city search form
   const fetchCity = (e) => {
