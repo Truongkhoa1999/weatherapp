@@ -11,7 +11,7 @@ export const ReturnInfo = ({ cityData }) => {
   useEffect(() => {
     setData(null);
     axios
-      .get(`http://dataservice.accuweather.com/currentconditions/v1/${cityData.Key}?apikey=${apiKey}`)
+      .get(`https://dataservice.accuweather.com/currentconditions/v1/${cityData.Key}?apikey=${apiKey}`)
       .then((res) => {
         setData(res.data[0]);
 
